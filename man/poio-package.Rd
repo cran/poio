@@ -3,13 +3,9 @@
 \docType{package}
 \name{poio}
 \alias{poio}
-\alias{poio-package}
 \title{Input/Output Functionality for \dQuote{PO} and \dQuote{POT} Message Translation Files}
 \description{
 Read and write PO and POT files, for package translations.
-}
-\author{
-Richard Cotton
 }
 \references{
 \href{https://www.gnu.org/software/gettext/manual/gettext.html}{GNU gettext Manual}
@@ -17,5 +13,7 @@ Richard Cotton
 \seealso{
 \code{\link{read_po}}, \code{\link{write_po}}
 }
+\author{
+Richard Cotton
+}
 \keyword{package}
-

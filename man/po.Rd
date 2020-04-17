@@ -16,10 +16,10 @@ originated from a PO (language-specific) or POT (master translation) file.}
 \item{initial_comments}{A character vector of comments added by the
 translator.}
 
-\item{metadata}{A \code{\link[tibble]{data_frame}} of file metadata with
+\item{metadata}{A \code{\link[tibble]{tibble}} of file metadata with
 columns "name" and "value".}
 
-\item{direct}{A \code{\link[tibble]{data_frame}} of messages with a direct
+\item{direct}{A \code{\link[tibble]{tibble}} of messages with a direct
 translation, as created by \code{\link[base]{stop}},
 \code{\link[base]{warning}}, \code{\link[base]{message}} or
 \code{\link[base]{gettext}}; its columns are described below.}
@@ -74,4 +74,3 @@ and \code{msgctxt} fields.
 Much of the logic for this function was determined from reading
 \url{http://pology.nedohodnik.net/doc/user/en_US/ch-poformat.html}
 }
-

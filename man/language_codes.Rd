@@ -2,16 +2,20 @@
 % Please edit documentation in R/language_codes-dataset.R
 \docType{data}
 \name{language_codes}
-\alias{ALLOWED_LANGUAGE_REGEX}
 \alias{language_codes}
+\alias{ALLOWED_LANGUAGE_REGEX}
 \title{Language codes supported by GNU gettext}
-\format{\code{language_codes} is a list with two character vector elements.
+\format{
+\code{language_codes} is a list with two character vector elements.
 \describe{
 \item{language}{Lowercase two letter ISO 639-1 codes, and some lowercase
 three letter ISO 639-2 codes representing languages.}
 \item{country}{Uppercase two letter ISO 3166-1 alpha-2 code representing
 countries and territories.}
-}}
+}
+
+An object of class \code{character} of length 1.
+}
 \usage{
 data(language_codes)
 
@@ -52,4 +56,3 @@ webpages:
 \url{https://www.gnu.org/software/gettext/manual/html_node/Country-Codes.html#Country-Codes}
 }
 \keyword{datasets}
-
